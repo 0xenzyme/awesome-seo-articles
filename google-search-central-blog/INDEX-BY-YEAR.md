@@ -1,9 +1,12 @@
 # Google Search Central Blog — Index by Year
 
-Total: 1648 posts across 22 years.
+Total: 1651 posts across 22 years.
 
-## 2026 (13)
+## 2026 (16)
 
+- 2026-09-08 — [Search Central Live is coming to Bogota and Ciudad de México](blog-article/2026-09-search-central-live-mexico-and-colombia.md)
+- 2026-08-28 — [Update to the Site Reputation Policy](blog-article/2026-08-update-site-reputation-policy.md)
+- 2026-07-29 — [Platform properties roll out globally, plus a new social and video performance guide](blog-article/2026-07-platform-properties-social-video-guide.md)
 - 2026-07-07 — [See how content from social and video platforms performs on Google Search](blog-article/2026-07-search-console-social-video-platforms.md)
 - 2026-07-06 — [Search Central Deep Dive Europe 2026: Apparently we're going to Barcelona](blog-article/2026-07-search-central-live-deep-dive-europe-2026.md)
 - 2026-06-18 — [Help Us Pick the Next Stop in Europe for Search Central Live Deep Dive 2026!](blog-article/2026-06-scl-deep-dive-europe-2026.md)

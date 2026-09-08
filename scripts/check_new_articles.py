@@ -155,6 +155,8 @@ def is_blog_article_url(source: str, url: str) -> bool:
         # Only /blog/<slug>/ — exclude author pages, category pages, /page/, /author/.
         if not url.startswith("https://ahrefs.com/blog/"):
             return False
+        if "?" in url or "#" in url:
+            return False
         tail = url[len("https://ahrefs.com/blog/") :].rstrip("/")
         if not tail or "/" in tail:
             return False

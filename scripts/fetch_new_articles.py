@@ -41,54 +41,54 @@ UA = (
 
 
 # ---------------------------------------------------------------------------
-# URL lists to fetch. Sourced from the check_new_articles.py probe on 2026-07-13.
+# URL lists to fetch. Sourced from the check_new_articles.py probe on 2026-09-08.
 # NEW = article not present in local corpus; kept published date for reference.
 # ---------------------------------------------------------------------------
 
 AHREFS_NEW = [
-    "https://ahrefs.com/blog/taught-agent-to-refresh-data-content/",
-    "https://ahrefs.com/blog/agent-a-for-seo/",
-    "https://ahrefs.com/blog/retrieval-augmented-generation/",
-    "https://ahrefs.com/blog/self-promotional-content-ai-seo-experiment/",
-    "https://ahrefs.com/blog/ai-marketing-assistant/",
-    "https://ahrefs.com/blog/marketing-trends/",
-    "https://ahrefs.com/blog/new-features-may-2026/",
-    "https://ahrefs.com/blog/what-is-an-ai-agent/",
-    "https://ahrefs.com/blog/reddit-seo/",
-    "https://ahrefs.com/blog/llmstxt-study/",
-    "https://ahrefs.com/blog/average-organic-traffic-benchmarks/",
-    "https://ahrefs.com/blog/what-is-a-good-ctr/",
-    "https://ahrefs.com/blog/seo-content/",
-    "https://ahrefs.com/blog/agentic-marketing/",
-    # Historical backfill (4 older posts we somehow missed).
-    "https://ahrefs.com/blog/how-do-search-engines-work/",
-    "https://ahrefs.com/blog/what-is-soft-404/",
-    "https://ahrefs.com/blog/bulk-pagespeed-insights-website-speed-test/",
-    "https://ahrefs.com/blog/enterprise-seo-roi-calculator/",
+    "https://ahrefs.com/blog/how-ahrefs-estimates-ai-search-demand/",
+    "https://ahrefs.com/blog/how-we-use-ai-without-making-ai-slop/",
+    "https://ahrefs.com/blog/discussions-and-forums-serps/",
+    "https://ahrefs.com/blog/information-gain/",
+    "https://ahrefs.com/blog/mba-metrics-for-seo/",
+    "https://ahrefs.com/blog/letaido-for-aeo/",
+    "https://ahrefs.com/blog/claude-now-watermarks-everything-it-writes/",
+    "https://ahrefs.com/blog/how-to-use-ai-in-marketing/",
+    "https://ahrefs.com/blog/the-free-tools-seo-strategy/",
+    "https://ahrefs.com/blog/ai-search-trends/",
+    "https://ahrefs.com/blog/new-features-june-2026/",
+    "https://ahrefs.com/blog/vibe-coding-for-marketers-a-beginners-guide/",
+    "https://ahrefs.com/blog/google-doesnt-punish-ai-content/",
+    "https://ahrefs.com/blog/ai-search-strategy/",
+    "https://ahrefs.com/blog/creative-ways-to-write-with-ai/",
+    # Historical backfill (older post the sitemap still lists as missing).
+    "https://ahrefs.com/blog/how-to-pronounce-ahrefs/",
 ]
 
 SEMRUSH_NEW = [
-    "https://www.semrush.com/blog/google-search-console-adds-social-and-video-reports/",
-    "https://www.semrush.com/blog/how-ai-shapes-b2b-buying/",
-    "https://www.semrush.com/blog/google-research-and-ai-spam-detection/",
-    "https://www.semrush.com/blog/ai-overviews-commercial-search-study/",
-    "https://www.semrush.com/blog/how-cardmarket-wins-search/",
-    "https://www.semrush.com/blog/google-completes-spam-update-rollout/",
-    "https://www.semrush.com/blog/ecommerce-ai-seo/",
-    "https://www.semrush.com/blog/chatgpt-reasoning-ai-visibility/",
-    "https://www.semrush.com/blog/how-i-rebuilt-our-content-update-pipeline/",
-    "https://www.semrush.com/blog/google-launches-open-knowledge-format-for-ai-agents/",
-    "https://www.semrush.com/blog/semrush-vs-semrush-for-enterprise/",
-    "https://www.semrush.com/blog/category-entry-points-ai-search/",
-    "https://www.semrush.com/blog/how-to-optimize-for-the-agentic-web/",
-    "https://www.semrush.com/blog/ai-sentiment-analysis-marketers-guide/",
-    "https://www.semrush.com/blog/ai-agent-bot-traffic/",
+    "https://www.semrush.com/blog/ai-chatbots-talk-ai-users-out-of-buying/",
+    "https://www.semrush.com/blog/how-to-prepare-your-site-for-ai-agents/",
+    "https://www.semrush.com/blog/where-does-ai-get-its-information/",
+    "https://www.semrush.com/blog/ai-tools-for-competitor-analysis/",
+    "https://www.semrush.com/blog/google-august-2026-spam-update/",
+    "https://www.semrush.com/blog/reddits-citations-in-chatgpt-fall/",
+    "https://www.semrush.com/blog/microsoft-clarity-scrape-to-referral/",
+    "https://www.semrush.com/blog/ai-visibility-tracking-tools-for-agencies/",
+    "https://www.semrush.com/blog/digital-pr-for-ai-visibility/",
+    "https://www.semrush.com/blog/ai-visibility-roi/",
+    "https://www.semrush.com/blog/semrush-reviews/",
+    "https://www.semrush.com/blog/chatgpt-topical-focus-study/",
+    "https://www.semrush.com/blog/topical-gravity/",
+    "https://www.semrush.com/blog/content-seo-manager-study/",
+    "https://www.semrush.com/blog/chatgpt-topic-authority-study/",
+    "https://www.semrush.com/blog/ai-search-optimization-for-local-businesses/",
+    "https://www.semrush.com/blog/brand-positioning-is-an-ai-search-variable/",
 ]
 
 GSC_NEW = [
-    "https://developers.google.com/search/blog/2026/07/search-console-social-video-platforms",
-    "https://developers.google.com/search/blog/2026/07/search-central-live-deep-dive-europe-2026",
-    "https://developers.google.com/search/blog/2026/06/scl-deep-dive-europe-2026",
+    "https://developers.google.com/search/blog/2026/09/search-central-live-mexico-and-colombia",
+    "https://developers.google.com/search/blog/2026/08/update-site-reputation-policy",
+    "https://developers.google.com/search/blog/2026/07/platform-properties-social-video-guide",
 ]
 
 # Category-alias table used by reorganize scripts (semrush-blog only).

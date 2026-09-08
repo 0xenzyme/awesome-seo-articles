@@ -113,7 +113,11 @@ def load_articles() -> list[Article]:
     articles: list[Article] = []
     for source_dir in SOURCE_DIRS:
         folder = ROOT / source_dir
-        for path in sorted(folder.glob("*.md")):
+        for path in sorted(folder.rglob("*.md")):
+            # Articles live in category subdirectories after reorganization.
+            # Skip top-level index files such as INDEX-BY-YEAR.md.
+            if path.parent == folder:
+                continue
             text = path.read_text(encoding="utf-8")
             fm, body, warnings = parse_frontmatter(text)
             for field in REQUIRED_FIELDS:

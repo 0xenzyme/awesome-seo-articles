@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-06-15T04:08:06.818729+00:00",
+  "generated_at": "2026-09-08T09:17:57.929090+00:00",
   "sources": {
     "ahrefs-blog": {
-      "articles": 1148,
+      "articles": 1182,
       "content_types": {
-        "blog_article": 1014,
+        "blog_article": 1048,
         "landing_page": 3,
         "product_blog": 125,
         "seo_guide": 6
@@ -12,18 +12,19 @@
       "freshness_risks": {
         "high": 93,
         "historical": 24,
-        "low": 840,
-        "medium": 191
+        "low": 869,
+        "medium": 191,
+        "unknown": 5
       },
       "max_words": 10504,
-      "min_words": 267,
-      "total_words": 2783780,
+      "min_words": 8,
+      "total_words": 2866068,
       "warnings": 0
     },
     "google-search-central-blog": {
-      "articles": 1645,
+      "articles": 1651,
       "content_types": {
-        "blog_article": 575,
+        "blog_article": 581,
         "event": 30,
         "search_update": 107,
         "short_announcement": 933
@@ -31,18 +32,18 @@
       "freshness_risks": {
         "high": 1,
         "historical": 1592,
-        "low": 28,
+        "low": 34,
         "medium": 24
       },
       "max_words": 5624,
       "min_words": 29,
-      "total_words": 609176,
+      "total_words": 613073,
       "warnings": 0
     },
     "semrush-blog": {
-      "articles": 1373,
+      "articles": 1405,
       "content_types": {
-        "blog_article": 1144,
+        "blog_article": 1176,
         "faq_short": 143,
         "product_or_tool": 53,
         "research_study": 33
@@ -50,14 +51,14 @@
       "freshness_risks": {
         "high": 48,
         "historical": 22,
-        "low": 1114,
+        "low": 1146,
         "medium": 189
       },
       "max_words": 15407,
       "min_words": 115,
-      "total_words": 3837017,
+      "total_words": 3908283,
       "warnings": 0
     }
   },
-  "total_articles": 4166
+  "total_articles": 4238
 }

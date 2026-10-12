@@ -1,15 +1,15 @@
 # Publication Audit
 
-Generated: 2026-09-08T09:17:57.929090+00:00
-Total Markdown articles: 4238
+Generated: 2026-10-12T10:07:53.391930+00:00
+Total Markdown articles: 4272
 
 ## Source Inventory
 
 | Source | Articles | Warning rows | Total words | Content types | Freshness risks |
 | --- | ---: | ---: | ---: | --- | --- |
-| ahrefs-blog | 1182 | 0 | 2866068 | blog_article: 1048, landing_page: 3, product_blog: 125, seo_guide: 6 | high: 93, historical: 24, low: 869, medium: 191, unknown: 5 |
-| google-search-central-blog | 1651 | 0 | 613073 | blog_article: 581, event: 30, search_update: 107, short_announcement: 933 | high: 1, historical: 1592, low: 34, medium: 24 |
-| semrush-blog | 1405 | 0 | 3908283 | blog_article: 1176, faq_short: 143, product_or_tool: 53, research_study: 33 | high: 48, historical: 22, low: 1146, medium: 189 |
+| ahrefs-blog | 1194 | 0 | 2900308 | blog_article: 1060, landing_page: 3, product_blog: 125, seo_guide: 6 | high: 93, historical: 24, low: 881, medium: 191, unknown: 5 |
+| google-search-central-blog | 1655 | 0 | 615042 | blog_article: 585, event: 30, search_update: 107, short_announcement: 933 | high: 1, historical: 1592, low: 38, medium: 24 |
+| semrush-blog | 1423 | 0 | 3961550 | blog_article: 1194, faq_short: 143, product_or_tool: 53, research_study: 33 | high: 48, historical: 22, low: 1164, medium: 189 |
 
 ## Public Release Notes
 

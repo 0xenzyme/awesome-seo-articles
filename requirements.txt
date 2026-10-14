@@ -2,4 +2,4 @@
 # Discovery, preprocessing, and validation use the Python standard library.
 beautifulsoup4==4.15.0
 markdownify==1.2.3
-readability-lxml==0.8.4.1
+readability-lxml==0.9

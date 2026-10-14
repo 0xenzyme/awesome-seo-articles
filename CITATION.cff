@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+title: Awesome SEO Articles
+message: >-
+  If you use this corpus, cite this repository and the original article URL
+  recorded in each file. This citation does not license the third-party
+  article text. See LICENSE and NOTICE.md.
+type: dataset
+authors:
+  - name: Eugene
+    alias: 0xenzyme
+    website: "https://github.com/0xenzyme"
+repository-code: "https://github.com/0xenzyme/awesome-seo-articles"
+url: "https://github.com/0xenzyme/awesome-seo-articles"
+abstract: >-
+  Markdown corpus of public SEO and digital marketing articles from the
+  Ahrefs, Semrush, and Google Search Central blogs, with source metadata
+  and generated indexes.
+version: "2026-10-12"
+date-released: "2026-06-15"
+keywords:
+  - seo
+  - corpus
+  - search
+  - digital-marketing

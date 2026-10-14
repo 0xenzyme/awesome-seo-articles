@@ -1,0 +1,35 @@
+Awesome SEO Articles — repository terms
+
+This repository contains original project files and a corpus of third-party
+articles. These terms apply together with NOTICE.md.
+
+1. Original project files
+
+   The following material was written for this repository and is licensed
+   under the MIT License in LICENSES/MIT.txt:
+
+   - scripts/
+   - tests/
+   - .github/
+   - README.md, CONTRIBUTING.md, CODE_OF_CONDUCT.md, SECURITY.md, CHANGELOG.md
+   - requirements.txt, .editorconfig, .gitignore, .gitattributes
+
+   Copyright (c) 2026 Eugene
+
+2. Third-party article corpus
+
+   Markdown files under these directories are copyrighted by their original
+   publishers. This repository does not grant permission to copy, redistribute,
+   or adapt them:
+
+   - ahrefs-blog/
+   - semrush-blog/
+   - google-search-central-blog/
+
+   Each article file records its source URL in frontmatter. See NOTICE.md.
+
+3. Generated indexes and reports
+
+   metadata/ and reports/ are generated from the corpus. They repeat titles,
+   URLs, and paths from the articles so the collection can be searched and
+   cited. Those files do not license the underlying articles.

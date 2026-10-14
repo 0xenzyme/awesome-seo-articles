@@ -1,0 +1,19 @@
+name: Corpus addition
+description: Propose a public article from Ahrefs, Semrush, or Google Search Central that is missing here.
+title: "[add] "
+labels:
+  - enhancement
+body:
+  - type: input
+    id: url
+    attributes:
+      label: Article URL
+      placeholder: https://ahrefs.com/blog/example/
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why this page belongs in the corpus
+    validations:
+      required: true

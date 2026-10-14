@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Third-party content notice
+    url: https://github.com/0xenzyme/awesome-seo-articles/blob/main/NOTICE.md
+    about: Read this before asking to republish article text from the corpus.

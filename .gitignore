@@ -4,3 +4,12 @@ __pycache__/
 Thumbs.db
 .idea/
 .vscode/
+.venv/
+venv/
+.env
+.env.*
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/

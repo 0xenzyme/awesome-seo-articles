@@ -1,0 +1,30 @@
+name: Article or metadata bug
+description: A file in the corpus has bad frontmatter, a wrong URL, or a cleanup problem.
+title: "[corpus] "
+labels:
+  - bug
+body:
+  - type: dropdown
+    id: source
+    attributes:
+      label: Source
+      options:
+        - ahrefs-blog
+        - semrush-blog
+        - google-search-central-blog
+    validations:
+      required: true
+  - type: input
+    id: path
+    attributes:
+      label: File path
+      placeholder: ahrefs-blog/general-seo/example.md
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What is wrong
+      description: Point at the field or passage, and include the original URL if the metadata disagrees with the source page.
+    validations:
+      required: true

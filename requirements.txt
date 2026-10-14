@@ -1,5 +1,5 @@
 # Dependencies for scripts/fetch_new_articles.py only.
 # Discovery, preprocessing, and validation use the Python standard library.
 beautifulsoup4==4.13.4
-markdownify==1.2.2
+markdownify==1.2.3
 readability-lxml==0.8.4.1
